@@ -1,5 +1,5 @@
+import 'package:Venni/homePage.dart';
 import 'package:flutter/material.dart';
-import 'package:venni_website/homePage.dart';
 
 void main() {
   runApp(MyApp());
