@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class AppColor extends Color {
-  AppColor(int value) : super(value);
+class AppColors extends Color {
+  AppColors(int value) : super(value);
 
   static const primaryPink = Color(0XFFF22E7F);
   static const secondaryPurple = Color(0xFFF111E6);
