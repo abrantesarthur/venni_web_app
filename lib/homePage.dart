@@ -1,3 +1,4 @@
+import 'package:flutter_svg/svg.dart';
 import 'package:venni/styles.dart';
 import 'package:venni/widgets/overallPadding.dart';
 import 'package:flutter/material.dart';
@@ -18,8 +19,8 @@ class HomePage extends StatelessWidget {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.start,
                   children: [
-                    Image(
-                      image: AssetImage("images/logo-horizontal-white.png"),
+                    SvgPicture.asset(
+                      "images/logo-horizontal-white.svg",
                       width: screenWidth / 2,
                     ),
                   ],
