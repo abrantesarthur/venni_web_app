@@ -21,7 +21,7 @@ class HomePage extends StatelessWidget {
                   children: [
                     SvgPicture.asset(
                       "images/logo-horizontal-white.svg",
-                      width: screenWidth / 2,
+                      width: screenWidth / 5,
                     ),
                   ],
                 ),
