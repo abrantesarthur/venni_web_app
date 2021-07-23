@@ -74,8 +74,18 @@ class HomePage extends StatelessWidget {
                             ),
                           ),
                           SizedBox(height: screenHeight / 10),
-                          Text(
-                            "hello",
+                          Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                            children: [
+                              SvgPicture.asset(
+                                "images/appstore.svg",
+                                width: screenWidth / 5,
+                              ),
+                              SvgPicture.asset(
+                                "images/googleplay.svg",
+                                width: screenWidth / 5,
+                              ),
+                            ],
                           ),
                         ],
                       ),
