@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:venni/styles.dart';
-import 'package:venni/widgets/appButton.dart';
 import 'package:venni/widgets/overallPadding.dart';
 
 class Partners extends StatelessWidget {
-  static String routeName = "partners";
+  static String routeName = "parceiros";
 
   @override
   Widget build(BuildContext context) {
@@ -41,7 +40,8 @@ class Partners extends StatelessWidget {
                           RichText(
                             textAlign: TextAlign.start,
                             text: TextSpan(
-                              text: "Faça viagens de moto com",
+                              text:
+                                  "Baixe o app de parceiros, se registre e ganhe",
                               style: TextStyle(
                                 fontSize: 60,
                                 color: AppColors.primaryPink,
@@ -50,16 +50,14 @@ class Partners extends StatelessWidget {
                               ),
                               children: <TextSpan>[
                                 TextSpan(
-                                  text: " segurança",
+                                  text: " dinheiro",
                                   style: TextStyle(
                                     fontWeight: FontWeight.w700,
                                   ),
                                 ),
+                                TextSpan(text: " com"),
                                 TextSpan(
-                                  text: " e por um ",
-                                ),
-                                TextSpan(
-                                  text: " preço justo",
+                                  text: " tranquilidade",
                                   style: TextStyle(
                                     fontWeight: FontWeight.w700,
                                   ),
