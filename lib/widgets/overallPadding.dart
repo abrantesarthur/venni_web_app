@@ -22,10 +22,10 @@ class OverallPadding extends StatelessWidget {
 
     return Padding(
       padding: EdgeInsets.only(
-        left: left ?? width / 30,
-        right: right ?? width / 30,
-        top: top ?? height / 30,
-        bottom: bottom ?? height / 20,
+        left: left ?? width / 40,
+        right: right ?? width / 40,
+        top: top ?? height / 40,
+        bottom: bottom ?? height / 40,
       ),
       child: child,
     );

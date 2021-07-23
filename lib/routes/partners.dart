@@ -1,11 +1,11 @@
+import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:venni/styles.dart';
 import 'package:venni/widgets/appButton.dart';
 import 'package:venni/widgets/overallPadding.dart';
-import 'package:flutter/material.dart';
 
-class HomePage extends StatelessWidget {
-  static String routeName = "/";
+class Partners extends StatelessWidget {
+  static String routeName = "/partners";
 
   @override
   Widget build(BuildContext context) {
@@ -28,7 +28,7 @@ class HomePage extends StatelessWidget {
                       width: screenWidth / 6,
                     ),
                     AppButton(
-                      textData: "Trabalhe Conosco",
+                      textData: "Voltar",
                       height: 50,
                       textStyle: TextStyle(
                         color: Colors.white,
@@ -37,7 +37,7 @@ class HomePage extends StatelessWidget {
                       ),
                       hasShadow: false,
                       border: Border.all(color: Colors.white, width: 2),
-                      onTapCallBack: () {},
+                      onTapCallBack: () => Navigator.pop(context),
                     )
                   ],
                 ),
