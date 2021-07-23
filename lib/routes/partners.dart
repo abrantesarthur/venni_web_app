@@ -4,7 +4,7 @@ import 'package:venni/styles.dart';
 import 'package:venni/widgets/overallPadding.dart';
 
 class Partners extends StatelessWidget {
-  static String routeName = "parceiros";
+  static String routeName = "/parceiros";
 
   @override
   Widget build(BuildContext context) {
@@ -69,13 +69,19 @@ class Partners extends StatelessWidget {
                           Row(
                             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                             children: [
-                              SvgPicture.asset(
-                                "images/appstore.svg",
-                                width: screenWidth / 5,
+                              InkWell(
+                                onTap: () {},
+                                child: SvgPicture.asset(
+                                  "images/appstore.svg",
+                                  width: screenWidth / 5,
+                                ),
                               ),
-                              SvgPicture.asset(
-                                "images/googleplay.svg",
-                                width: screenWidth / 5,
+                              InkWell(
+                                onTap: () {},
+                                child: SvgPicture.asset(
+                                  "images/googleplay.svg",
+                                  width: screenWidth / 5,
+                                ),
                               ),
                             ],
                           ),

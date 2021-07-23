@@ -37,7 +37,7 @@ class AppButton extends StatelessWidget {
     final screenHeight = MediaQuery.of(context).size.height;
     final screenWidth = MediaQuery.of(context).size.width;
 
-    return GestureDetector(
+    return InkWell(
       onTap: onTapCallBack,
       child: Container(
         decoration: BoxDecoration(

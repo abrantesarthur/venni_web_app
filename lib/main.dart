@@ -1,7 +1,9 @@
+import 'package:venni/routes/clientTerms.dart';
 import 'package:venni/routes/homePage.dart';
 import 'package:flutter/material.dart';
 import 'package:venni/configure_web.dart'
     if (dart.library.html) 'package:venni/configure_web.dart';
+import 'package:venni/routes/partnerTerms.dart';
 import 'package:venni/routes/partners.dart';
 
 void main() {
@@ -19,6 +21,8 @@ class MyApp extends StatelessWidget {
       routes: {
         HomePage.routeName: (context) => HomePage(),
         Partners.routeName: (context) => Partners(),
+        ClientTerms.routeName: (context) => ClientTerms(),
+        PartnerTerms.routeName: (context) => PartnerTerms(),
       },
     );
   }

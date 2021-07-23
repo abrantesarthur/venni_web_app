@@ -1,4 +1,5 @@
 import 'package:flutter_svg/svg.dart';
+import 'package:venni/routes/partnerTerms.dart';
 import 'package:venni/routes/partners.dart';
 import 'package:venni/styles.dart';
 import 'package:venni/widgets/appButton.dart';
@@ -24,9 +25,12 @@ class HomePage extends StatelessWidget {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    SvgPicture.asset(
-                      "images/logo-horizontal-white.svg",
-                      width: screenWidth / 6,
+                    InkWell(
+                      onTap: () {},
+                      child: SvgPicture.asset(
+                        "images/logo-horizontal-white.svg",
+                        width: screenWidth / 6,
+                      ),
                     ),
                     AppButton(
                       textData: "Trabalhe Conosco",
@@ -82,13 +86,19 @@ class HomePage extends StatelessWidget {
                           Row(
                             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                             children: [
-                              SvgPicture.asset(
-                                "images/appstore.svg",
-                                width: screenWidth / 5,
+                              InkWell(
+                                onTap: () {},
+                                child: SvgPicture.asset(
+                                  "images/appstore.svg",
+                                  width: screenWidth / 5,
+                                ),
                               ),
-                              SvgPicture.asset(
-                                "images/googleplay.svg",
-                                width: screenWidth / 5,
+                              InkWell(
+                                onTap: () {},
+                                child: SvgPicture.asset(
+                                  "images/googleplay.svg",
+                                  width: screenWidth / 5,
+                                ),
                               ),
                             ],
                           ),
