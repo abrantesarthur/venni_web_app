@@ -8,7 +8,6 @@ FIREBASEDEPLOY ?= $(FIREBASE) deploy
 ################################################################################
 ## run  targets
 ################################################################################
-.PHONY: rundev
 .PHONY: run
 run: 
 	$(FLUTTERRUN) -d chrome
@@ -25,6 +24,6 @@ build:
 ## deploy targets
 ################################################################################
 
-.PHONY: build
-build:
+.PHONY: deploy
+deploy:
 	$(FIREBASEDEPLOY) 
