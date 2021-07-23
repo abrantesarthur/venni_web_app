@@ -1,4 +1,5 @@
 import 'package:flutter_svg/svg.dart';
+import 'package:venni/routes/partners.dart';
 import 'package:venni/styles.dart';
 import 'package:venni/widgets/appButton.dart';
 import 'package:venni/widgets/overallPadding.dart';
@@ -37,7 +38,8 @@ class HomePage extends StatelessWidget {
                       ),
                       hasShadow: false,
                       border: Border.all(color: Colors.white, width: 2),
-                      onTapCallBack: () {},
+                      onTapCallBack: () =>
+                          Navigator.pushNamed(context, Partners.routeName),
                     )
                   ],
                 ),
@@ -97,7 +99,7 @@ class HomePage extends StatelessWidget {
                       child: Column(
                         children: [
                           Image(
-                            image: AssetImage("images/iphone.png"),
+                            image: AssetImage("images/iphoneClient.png"),
                             height: 0.8 * screenHeight,
                           ),
                         ],

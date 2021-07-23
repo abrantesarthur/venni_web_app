@@ -1,4 +1,4 @@
-import 'package:venni/homePage.dart';
+import 'package:venni/routes/homePage.dart';
 import 'package:flutter/material.dart';
 import 'package:venni/configure_web.dart'
     if (dart.library.html) 'package:venni/configure_web.dart';
@@ -17,6 +17,7 @@ class MyApp extends StatelessWidget {
       title: 'Venni',
       initialRoute: HomePage.routeName,
       routes: {
+        HomePage.routeName: (context) => HomePage(),
         Partners.routeName: (context) => Partners(),
       },
     );

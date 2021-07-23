@@ -5,7 +5,7 @@ import 'package:venni/widgets/appButton.dart';
 import 'package:venni/widgets/overallPadding.dart';
 
 class Partners extends StatelessWidget {
-  static String routeName = "/partners";
+  static String routeName = "partners";
 
   @override
   Widget build(BuildContext context) {
@@ -14,31 +14,22 @@ class Partners extends StatelessWidget {
 
     return Scaffold(
       body: Container(
-        color: AppColors.primaryPink,
+        color: Colors.white,
         alignment: Alignment.topCenter,
         child: OverallPadding(
           child: SingleChildScrollView(
             child: Column(
               children: [
                 Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  mainAxisAlignment: MainAxisAlignment.start,
                   children: [
-                    SvgPicture.asset(
-                      "images/logo-horizontal-white.svg",
-                      width: screenWidth / 6,
-                    ),
-                    AppButton(
-                      textData: "Voltar",
-                      height: 50,
-                      textStyle: TextStyle(
-                        color: Colors.white,
-                        fontSize: 22,
-                        fontWeight: FontWeight.w600,
+                    InkWell(
+                      onTap: () => Navigator.pop(context),
+                      child: SvgPicture.asset(
+                        "images/logo-horizontal-white.svg",
+                        width: screenWidth / 6,
                       ),
-                      hasShadow: false,
-                      border: Border.all(color: Colors.white, width: 2),
-                      onTapCallBack: () => Navigator.pop(context),
-                    )
+                    ),
                   ],
                 ),
                 SizedBox(height: screenHeight / 20),
@@ -53,7 +44,7 @@ class Partners extends StatelessWidget {
                               text: "Faça viagens de moto com",
                               style: TextStyle(
                                 fontSize: 60,
-                                color: Colors.white,
+                                color: AppColors.primaryPink,
                                 fontFamily: "OpenSans",
                                 fontWeight: FontWeight.w300,
                               ),
@@ -97,7 +88,7 @@ class Partners extends StatelessWidget {
                       child: Column(
                         children: [
                           Image(
-                            image: AssetImage("images/iphone.png"),
+                            image: AssetImage("images/iphonePartner.png"),
                             height: 0.8 * screenHeight,
                           ),
                         ],
