@@ -23,5 +23,14 @@ flutter:
   uses-material-design: true
   assets:
     - images/
+  fonts:
+    - family: OpenSans
+      fonts:
+        - asset: fonts/OpenSans-Light.ttf
+        - asset: fonts/OpenSans-Regular.ttf
+        - asset: fonts/OpenSans-SemiBold.ttf
+        - asset: fonts/OpenSans-Bold.ttf
+        - asset: fonts/OpenSans-ExtraBold.ttf
+
 
  
