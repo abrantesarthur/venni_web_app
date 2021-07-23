@@ -26,7 +26,7 @@ class Partners extends StatelessWidget {
                     InkWell(
                       onTap: () => Navigator.pop(context),
                       child: SvgPicture.asset(
-                        "images/logo-horizontal-white.svg",
+                        "images/logo-horizontal-pink.svg",
                         width: screenWidth / 6,
                       ),
                     ),
