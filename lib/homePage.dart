@@ -23,17 +23,22 @@ class HomePage extends StatelessWidget {
                   children: [
                     SvgPicture.asset(
                       "images/logo-horizontal-white.svg",
-                      width: screenWidth / 5,
+                      width: screenWidth / 10,
                     ),
                     AppButton(
                       textData: "Trabalhe Conosco",
+                      textStyle: TextStyle(
+                        color: Colors.white,
+                        fontSize: 22,
+                        fontWeight: FontWeight.w600,
+                      ),
                       hasShadow: false,
                       border: Border.all(color: Colors.white, width: 2),
                       onTapCallBack: () {},
                     )
                   ],
                 ),
-                SizedBox(height: screenHeight / 5),
+                SizedBox(height: screenHeight / 10),
                 Row(
                   children: [
                     Expanded(
@@ -42,17 +47,18 @@ class HomePage extends StatelessWidget {
                           RichText(
                             textAlign: TextAlign.start,
                             text: TextSpan(
-                              text: "Baixe o app e faça viajens de moto com",
+                              text: "Faça viajens de moto com",
                               style: TextStyle(
-                                fontSize: 64,
+                                fontSize: 60,
                                 color: Colors.white,
-                                fontWeight: FontWeight.w100,
+                                fontFamily: "OpenSans",
+                                fontWeight: FontWeight.w300,
                               ),
                               children: <TextSpan>[
                                 TextSpan(
                                   text: " segurança",
                                   style: TextStyle(
-                                    fontWeight: FontWeight.w900,
+                                    fontWeight: FontWeight.w700,
                                   ),
                                 ),
                                 TextSpan(
@@ -61,7 +67,7 @@ class HomePage extends StatelessWidget {
                                 TextSpan(
                                   text: " preço justo",
                                   style: TextStyle(
-                                    fontWeight: FontWeight.w900,
+                                    fontWeight: FontWeight.w700,
                                   ),
                                 ),
                               ],
