@@ -5,6 +5,7 @@ import 'package:venni/configure_web.dart'
     if (dart.library.html) 'package:venni/configure_web.dart';
 import 'package:venni/routes/partnerTerms.dart';
 import 'package:venni/routes/partners.dart';
+import 'package:venni/routes/privacy.dart';
 
 void main() {
   configureApp();
@@ -23,6 +24,7 @@ class MyApp extends StatelessWidget {
         Partners.routeName: (context) => Partners(),
         ClientTerms.routeName: (context) => ClientTerms(),
         PartnerTerms.routeName: (context) => PartnerTerms(),
+        Privacy.routeName: (context) => Privacy(),
       },
     );
   }

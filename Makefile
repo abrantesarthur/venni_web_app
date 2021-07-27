@@ -18,7 +18,7 @@ run:
 
 .PHONY: build
 build:
-	$(FLUTTERBUILD) web
+	$(FLUTTERBUILD) web --release
 	
 ################################################################################
 ## deploy targets
