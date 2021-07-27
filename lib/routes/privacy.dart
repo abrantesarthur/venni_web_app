@@ -32,7 +32,7 @@ class Privacy extends StatelessWidget {
                 ),
                 SizedBox(height: screenHeight / 20),
                 Text(
-                  "Estes são os termos dos parceiros",
+                  "Estes são os termos de privacidade",
                   style: TextStyle(color: Colors.black),
                 ),
               ],

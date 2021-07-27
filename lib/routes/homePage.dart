@@ -1,5 +1,4 @@
 import 'package:flutter_svg/svg.dart';
-import 'package:venni/routes/partnerTerms.dart';
 import 'package:venni/routes/partners.dart';
 import 'package:venni/styles.dart';
 import 'package:venni/widgets/appButton.dart';
