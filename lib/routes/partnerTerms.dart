@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:venni/styles.dart';
 import 'package:venni/widgets/overallPadding.dart';
 
 class PartnerTerms extends StatelessWidget {
