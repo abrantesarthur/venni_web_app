@@ -23,8 +23,8 @@ class ClientTerms extends StatelessWidget {
                   children: [
                     InkWell(
                       onTap: () => Navigator.pop(context),
-                      child: SvgPicture.asset(
-                        "images/logo-horizontal-pink.svg",
+                      child: Image.asset(
+                        "images/logo-horizontal-pink.png",
                         width: screenWidth / 6,
                       ),
                     ),
