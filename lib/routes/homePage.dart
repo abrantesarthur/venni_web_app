@@ -197,7 +197,7 @@ class HomePage extends StatelessWidget {
                 ? 5
                 : constraints.maxWidth >= 501
                     ? 4
-                    : 2),
+                    : 1.3),
       ),
     );
   }
@@ -216,7 +216,7 @@ class HomePage extends StatelessWidget {
                 ? 5
                 : constraints.maxWidth >= 501
                     ? 4
-                    : 2),
+                    : 1.3),
       ),
     );
   }
