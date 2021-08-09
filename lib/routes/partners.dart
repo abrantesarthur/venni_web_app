@@ -21,6 +21,7 @@ class Partners extends StatelessWidget {
             color: Colors.white,
             alignment: Alignment.topCenter,
             child: OverallPadding(
+              bottom: 0,
               child: SingleChildScrollView(
                 child: Column(
                   children: [
@@ -66,6 +67,7 @@ class Partners extends StatelessWidget {
           color: Colors.white,
           alignment: Alignment.topCenter,
           child: OverallPadding(
+            bottom: 0,
             child: SingleChildScrollView(
               child: Column(
                 children: [

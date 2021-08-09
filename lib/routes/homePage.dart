@@ -23,6 +23,7 @@ class HomePage extends StatelessWidget {
             color: AppColors.primaryPink,
             alignment: Alignment.topCenter,
             child: OverallPadding(
+              bottom: 0,
               child: SingleChildScrollView(
                 child: Column(
                   children: [
@@ -68,6 +69,7 @@ class HomePage extends StatelessWidget {
           color: AppColors.primaryPink,
           alignment: Alignment.topCenter,
           child: OverallPadding(
+            bottom: 0,
             child: SingleChildScrollView(
               child: Column(
                 children: [
