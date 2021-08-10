@@ -122,7 +122,7 @@ class Partners extends StatelessWidget {
                     ? 6
                     : constraints.maxWidth >= 501
                         ? 4
-                        : 3.2),
+                        : 3),
           ),
         ),
       ],
@@ -180,7 +180,7 @@ class Partners extends StatelessWidget {
                 ? 5
                 : constraints.maxWidth >= 501
                     ? 4
-                    : 1.3),
+                    : 1.6),
       ),
     );
   }
@@ -200,7 +200,7 @@ class Partners extends StatelessWidget {
                 ? 5
                 : constraints.maxWidth >= 501
                     ? 4
-                    : 1.3),
+                    : 1.6),
       ),
     );
   }

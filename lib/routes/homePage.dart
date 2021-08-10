@@ -120,7 +120,7 @@ class HomePage extends StatelessWidget {
                     ? 6
                     : constraints.maxWidth >= 501
                         ? 4
-                        : 3.2),
+                        : 3),
           ),
         ),
         AppButton(
@@ -197,7 +197,7 @@ class HomePage extends StatelessWidget {
                 ? 5
                 : constraints.maxWidth >= 501
                     ? 4
-                    : 1.3),
+                    : 1.6),
       ),
     );
   }
@@ -216,7 +216,7 @@ class HomePage extends StatelessWidget {
                 ? 5
                 : constraints.maxWidth >= 501
                     ? 4
-                    : 1.3),
+                    : 1.6),
       ),
     );
   }
